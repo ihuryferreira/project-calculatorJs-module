@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora Js</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+  <script src="./src/js/index.js" type="module" defer></script>
+</head>
+
+<body>
+
+  <header class="header">
+    <h1>Calculadora Js</h1>
+    <button type="button" id="thema">Switch Thema Dark/Light</button>
+  </header>
+
+
+  <main class="descript">
+    <input type="text" name="display" id="tela">
+
+    <div class="btns">
+      <span class="clearStyle" id="clear">C</span>
+      <span class="btn" data-value=" ( ">(</span>
+      <span class="btn" data-value=" ) ">)</span>
+      <span class="btn" data-value=" / ">/</span>
+      <span class="btn" data-value="7">7</span>
+      <span class="btn" data-value="8">8</span>
+      <span class="btn" data-value="9">9</span>
+      <span class="btn" data-value=" * ">*</span>
+      <span class="btn" data-value="4">4</span>
+      <span class="btn" data-value="5">5</span>
+      <span class="btn" data-value="6">6</span>
+      <span class="btn" data-value=" - ">-</span>
+      <span class="btn" data-value="1">1</span>
+      <span class="btn" data-value="2">2</span>
+      <span class="btn" data-value="3">3</span>
+      <span class="btn" data-value=" + ">+</span>
+      <span class="btn" data-value="0">0</span>
+      <span class="btn" data-value=".">.</span>
+      <span class="btn" data-value=" % ">mod</span>
+      <span class="igualStyle" id="igual">=</span>
+    </div>
+
+    <div class="copy">
+      <button type="button" id="copy">Copy</button>
+      <input type="text" name="display" id="result">
+    </div>
+
+  </main>
+
+
+</body>
+
+</html>

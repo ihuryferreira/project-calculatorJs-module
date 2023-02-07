@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(20, 2, 32, 0.9254901961);
+  color: #ffffff;
+}
+body.dark {
+  background-color: #f1f5f9;
+  color: #000000;
+}
+body .header {
+  width: 680px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+body .header h1 {
+  text-transform: uppercase;
+}
+body .header button {
+  padding: 8px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  font-size: 1.3em;
+  border-radius: 5px;
+  color: #ffffff;
+}
+body .header button:hover {
+  background-color: #fff;
+  color: #000000;
+}
+body .header button.darkBtn {
+  color: #000000;
+  border-color: #000000;
+}
+body .header button.darkBtn:hover {
+  color: #ffffff;
+  border: 2px solid #000000;
+  background-color: #000000;
+}
+body .descript {
+  width: 628px;
+}
+body .descript input#tela {
+  width: 100%;
+  padding: 15px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  outline: none;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 20.4px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+}
+body .descript input#tela.darkColorInput {
+  border-color: #000000;
+  color: #000000;
+}
+body .descript .btns {
+  flex: 1 0 10px;
+  display: grid;
+  grid-template-columns: 4em 4em 4em 4em;
+  gap: 10px 5.8em;
+  margin-top: 15px;
+}
+body .descript .btns .btn, body .descript .btns .clearStyle,
+body .descript .btns .igualStyle {
+  width: 150px;
+  height: 60px;
+  background-color: #19b119;
+  border: 2px solid #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  font-size: 1.7em;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+body .descript .btns .btn:hover, body .descript .btns .clearStyle:hover,
+body .descript .btns .igualStyle:hover {
+  background-color: #169916;
+  color: #eee;
+}
+body .descript .btns .btn.colorWhite, body .descript .btns .colorWhite.clearStyle, body .descript .btns .clearStyle.style,
+body .descript .btns .colorWhite.igualStyle,
+body .descript .btns .igualStyle.style {
+  color: white;
+  border-color: #000000;
+  background-color: #277e48;
+  font-weight: 700;
+}
+body .copy {
+  margin-top: 15px;
+  width: 620px;
+  display: flex;
+  margin-bottom: 1em;
+}
+body .copy button#copy {
+  width: 100px;
+  height: 78px;
+  border-radius: 0.5rem 0 0 0.5rem;
+  background-color: transparent;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+}
+body .copy button#copy.copyDark {
+  color: #000000;
+  border-color: #000000;
+  font-weight: 600;
+}
+body .copy input#result {
+  width: 100%;
+  outline: none;
+  background-color: transparent;
+  border-width: 2px 2px 2px 0;
+  border-style: solid;
+  border-color: #ffffff;
+  border-radius: 0 0.5rem 0.5rem 0;
+  text-align: right;
+  color: #ffffff;
+  padding-right: 3px;
+  font-size: 1.6em;
+}
+body .copy input#result.resultDark {
+  border-color: #000000;
+  color: #000000;
+}
+
+.error {
+  background-color: #ff0055 !important;
+}
+
+.success {
+  border: 2px solid #13e913 !important;
+  color: #13e913 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
